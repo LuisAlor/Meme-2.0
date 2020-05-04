@@ -109,10 +109,7 @@ class MemeViewController: UIViewController{
             // If share activity was completed then save meme
             if completed {
                 self.save()
-                self.dismiss(animated: true, completion: {
-                    let memeTableViewController = self.storyboard?.instantiateViewController(identifier: "MemeTableViewController") as! MemeTableViewController
-                    memeTableViewController.tableView!.reloadData()
-                })
+                self.dismiss(animated: true, completion: nil)
             }
         }
         //Present the ActivityViewController
