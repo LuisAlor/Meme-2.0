@@ -10,12 +10,16 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
+    // MARK: Outlets
     @IBOutlet weak var detailMemeImageView: UIImageView!
     
+    // MARK: Properties
     var memeItem:Meme!
 
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        // Assign the meme to our imageView
         if let detailMemeImage = self.detailMemeImageView{
             detailMemeImage.image = self.memeItem.userModifiedImage
         }
