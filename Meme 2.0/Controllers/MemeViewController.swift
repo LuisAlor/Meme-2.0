@@ -108,7 +108,9 @@ class MemeViewController: UIViewController{
         activityController.completionWithItemsHandler = { (_, completed, _, _) in
             // If share activity was completed then save meme
             if completed {
+                //Save meme
                 self.save()
+                //Dismiss view
                 self.dismiss(animated: true, completion: nil)
             }
         }
