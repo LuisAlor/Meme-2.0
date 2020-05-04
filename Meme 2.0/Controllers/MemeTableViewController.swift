@@ -46,6 +46,5 @@ class MemeTableViewController: UITableViewController {
         detailViewController.memeItem = self.memes[indexPath.row]
         self.navigationController?.pushViewController(detailViewController, animated: true)
     }
-    
 
 }

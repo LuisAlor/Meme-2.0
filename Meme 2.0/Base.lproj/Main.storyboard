@@ -27,11 +27,11 @@
             </objects>
             <point key="canvasLocation" x="-600" y="-163"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="2XL-oS-Eqc">
             <objects>
                 <navigationController id="J8W-Qc-NF1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="table" catalog="system" selectedImage="table" id="00k-CE-LrI"/>
+                    <tabBarItem key="tabBarItem" title="" image="table" catalog="system" selectedImage="table" id="00k-CE-LrI"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XHF-5Q-xKb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -137,11 +137,11 @@
             </objects>
             <point key="canvasLocation" x="1972.5" y="28.52112676056338"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="Tfo-hh-FN4">
             <objects>
                 <navigationController id="Tym-6b-cwh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" image="rectangle.grid.3x2" catalog="system" selectedImage="rectangle.grid.3x2" id="oga-P9-HBh"/>
+                    <tabBarItem key="tabBarItem" title="" image="rectangle.grid.3x2" catalog="system" selectedImage="rectangle.grid.2x2" id="oga-P9-HBh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="tM1-bj-mF6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -296,6 +296,7 @@
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="96"/>
         <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="rectangle.grid.2x2" catalog="system" width="128" height="99"/>
         <image name="rectangle.grid.3x2" catalog="system" width="128" height="101"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <image name="table" catalog="system" width="128" height="93"/>
