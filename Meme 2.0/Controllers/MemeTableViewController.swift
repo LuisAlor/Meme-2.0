@@ -31,7 +31,6 @@ class MemeTableViewController: UITableViewController {
         return memes.count
     }
 
-
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "MemeTableCell", for: indexPath)
@@ -42,10 +41,11 @@ class MemeTableViewController: UITableViewController {
         return cell
     }
         
-    /*
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        <#code#>
+        let detailViewController = self.storyboard?.instantiateViewController(identifier: "DetailViewController") as! DetailViewController
+        detailViewController.memeItem = self.memes[indexPath.row]
+        self.navigationController?.pushViewController(detailViewController, animated: true)
     }
-    */
+    
 
 }
